@@ -2,9 +2,9 @@ Readme File
 
 Questions:
 
-1. & 2. output directories attached
+Q1. & Q2. output directories attached
 
-3. 
+Q3. 
 Run Locally Output:
 
 root@ip-172-30-0-155:/home/ubuntu/cc-mrjob# time python absolutize_path.py < input/test-1.warc | python tag_counter.py --conf-path mrjob.conf --no-output --output-dir out
@@ -112,6 +112,6 @@ sys     0m0.103s
 
 The EMR job takes 288s of actual processing compared to locally only 75s.
 
-4. There are 2042 instances of address as found in the output file.
+Q4. There are 2042 instances of address as found in the output file.
 
-5. The two processes produce the same output.
+Q5. The two processes produce the same output.
